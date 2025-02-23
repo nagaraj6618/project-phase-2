@@ -1,6 +1,6 @@
 # Smart Grammer Correction Engine with Speech Recognition
 
-## About:
+## About
 Smart Grammar Correction Engine with Speech Recognition is an AI-powered tool designed to enhance language proficiency by providing real-time feedback on both written and spoken communication. It aims to support students in resource-limited settings, where language barriers often hinder academic and career growth. Leveraging advanced NLP and deep learning techniques, the system detects and corrects grammatical errors, refines pronunciation, and improves speech patterns. Key features such as secure login with two-factor authentication, chat history tracking, personalized learning insights, and seamless account management ensure a user-friendly experience. By offering accessible, high-quality language instruction, this tool empowers users to develop strong communication skills, boosting their confidence and future opportunities.
 
 
@@ -27,3 +27,25 @@ This project employs an AI-driven approach combining speech-to-text conversion, 
 - **User Interaction and Data Tracking**  
   - Features include chat history, performance tracking, and analytics.  
   - Helps students monitor their progress over time.  
+
+
+## System Requirements  
+
+### Hardware Environment  
+- **Processor:** Intel Core i5 or higher  
+- **Hard Disk:** 500 GB (minimum)  
+- **RAM:** 8 GB (minimum)  
+- **Keyboard:** Standard 110 keys enhanced  
+- **GPU:** NVIDIA GPU (for deep learning model training)  
+
+### Software Environment  
+- **Operating System:** Windows 10, macOS, or Linux (Ubuntu 18.04+)  
+- **Language:** Python 3.7 or higher, JavaScript  
+
+### Technologies Used  
+- **IDE:** Visual Studio Code, Jupyter Notebooks  
+- **Framework:** Flask, Node.js, and Express.js (for backend), React.js (for frontend)  
+- **Deep Learning Libraries:** TensorFlow, PyTorch  
+- **NLP Libraries:** spaCy, NLTK  
+
+  -
