@@ -48,4 +48,6 @@ This project employs an AI-driven approach combining speech-to-text conversion, 
 - **Deep Learning Libraries:** TensorFlow, PyTorch  
 - **NLP Libraries:** spaCy, NLTK  
 
-  -
+### System Artichecture:
+![image](https://github.com/user-attachments/assets/97fcba5a-60db-4367-8277-b4fc460a0840)
+
