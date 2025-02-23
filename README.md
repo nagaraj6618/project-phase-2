@@ -1,10 +1,10 @@
 # Smart Grammer Correction Engine with Speech Recognition
 
-# About:
+## About:
 Smart Grammar Correction Engine with Speech Recognition is an AI-powered tool designed to enhance language proficiency by providing real-time feedback on both written and spoken communication. It aims to support students in resource-limited settings, where language barriers often hinder academic and career growth. Leveraging advanced NLP and deep learning techniques, the system detects and corrects grammatical errors, refines pronunciation, and improves speech patterns. Key features such as secure login with two-factor authentication, chat history tracking, personalized learning insights, and seamless account management ensure a user-friendly experience. By offering accessible, high-quality language instruction, this tool empowers users to develop strong communication skills, boosting their confidence and future opportunities.
 
 
-# Methodology:
+## Methodology:
 
 This project employs an AI-driven approach combining speech-to-text conversion, grammar correction, and adaptive learning to enhance students' communication skills.
 
@@ -48,37 +48,37 @@ This project employs an AI-driven approach combining speech-to-text conversion, 
 - **Deep Learning Libraries:** TensorFlow, PyTorch  
 - **NLP Libraries:** spaCy, NLTK  
 
-# System Artichecture:
+## System Artichecture:
 ![image](https://github.com/user-attachments/assets/77b30081-6c00-4ae8-a0ae-6b6b768cf957)
 
 
-# Output:
-## Home Page:
+## Output:
+### Home Page:
 ![homepage](https://github.com/user-attachments/assets/836a4c29-0028-4743-bcb6-ff6cc1d147cf)
 
-## Login Page:
+### Login Page:
 ![loginpage](https://github.com/user-attachments/assets/094463a1-e5c5-4a3d-87b6-f77e63f21a86)
 
-## Register Page:
+### Register Page:
 ![register_page](https://github.com/user-attachments/assets/b7604028-b27f-4c17-b6c3-a92137933eed)
 
-## OTP Page:
+### OTP Page:
 ![OTP_PAGE](https://github.com/user-attachments/assets/0e29f111-c19e-45c4-ab51-99a698106c8d)
 
-## About Page:
+### About Page:
 ![about_page](https://github.com/user-attachments/assets/ff2ad565-17cf-499e-8e83-d689035a646c)
 
 ![about_page2](https://github.com/user-attachments/assets/927421a2-ff55-42ec-a35d-8e6d32c632a9)
 
-## Account Page:
+### Account Page:
 ![account_page](https://github.com/user-attachments/assets/c5ef87e5-2cdb-44fa-b416-9a9916a1c5b8)
 
 
-# Result:
+## Result:
 The Smart Grammar Correction Engine with Speech Recognition effectively identifies and highlights grammatical errors in both written and spoken input, providing real-time feedback. When an error is detected, the system marks the incorrect part of the sentence and suggests a corrected version.Each sentence is evaluated based on predefined grammatical rules, and a correctness score is generated, reflecting the number and type of errors. Additionally, the model assigns a fluency score to spoken input, assessing pronunciation and speech accuracy.By offering detailed feedback, corrective suggestions, and progress tracking, the system encourages continuous learning, helping users improve their grammar, fluency, and overall communication skills.
 
 
-# References:
+## References:
 
 [1] James E. Hoard, Richard H. Wojcik, Katherina Holzhauser, *An Automated Grammar and Style Checker for Writers of Simplified English*, 01 Jan 1992 (Springer, Dordrecht).  
 [2] Jeff Hawthorne, Felicity Radcliffe, Leslie A. Whitaker, *Enhancing Semantic Validity in Large Language Model Tasks Through Automated Grammar Checking*, 15 July 2024.  
