@@ -52,7 +52,7 @@ This project employs an AI-driven approach combining speech-to-text conversion, 
 ![image](https://github.com/user-attachments/assets/77b30081-6c00-4ae8-a0ae-6b6b768cf957)
 
 
-### Output:
+# Output:
 ## Home Page:
 ![homepage](https://github.com/user-attachments/assets/836a4c29-0028-4743-bcb6-ff6cc1d147cf)
 
@@ -78,7 +78,7 @@ This project employs an AI-driven approach combining speech-to-text conversion, 
 The Smart Grammar Correction Engine with Speech Recognition effectively identifies and highlights grammatical errors in both written and spoken input, providing real-time feedback. When an error is detected, the system marks the incorrect part of the sentence and suggests a corrected version.Each sentence is evaluated based on predefined grammatical rules, and a correctness score is generated, reflecting the number and type of errors. Additionally, the model assigns a fluency score to spoken input, assessing pronunciation and speech accuracy.By offering detailed feedback, corrective suggestions, and progress tracking, the system encourages continuous learning, helping users improve their grammar, fluency, and overall communication skills.
 
 
-## References:
+# References:
 
 [1] James E. Hoard, Richard H. Wojcik, Katherina Holzhauser, *An Automated Grammar and Style Checker for Writers of Simplified English*, 01 Jan 1992 (Springer, Dordrecht).  
 [2] Jeff Hawthorne, Felicity Radcliffe, Leslie A. Whitaker, *Enhancing Semantic Validity in Large Language Model Tasks Through Automated Grammar Checking*, 15 July 2024.  
