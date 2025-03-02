@@ -1,0 +1,136 @@
+/* General body styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    /* Light background color */
+    color: #333;
+    /* Dark text color */
+    font-family: Arial, sans-serif;
+}
+
+
+/* Styling for the navigation bar */
+
+.navbar {
+    background-color: #333;
+    /* Dark background for navbar */
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    /* Hover effect */
+    color: #fff;
+}
+
+.menu-icon {
+    color: white;
+    font-size: 24px;
+    padding: 15px 20px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.menu-icon:hover {
+    color: #ffffff;
+    /* Hover effect for menu icon */
+}
+
+
+/* Service section styling */
+
+.service-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    /* Space below the navbar */
+    padding: 20px;
+    background-color: #f1f1f1;
+    /* Light cream background for content */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+    text-align: left;
+    /* Left-align the text for readability */
+}
+
+.service-section h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    /* Larger title */
+    text-align: center;
+    /* Center the title */
+}
+
+.service-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    /* Space below the navbar */
+    padding: 20px;
+    background-color: #dbdbdb;
+    /* Light background for content */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+    text-align: center;
+    /* Center the text */
+    max-width: 800px;
+    /* Max width for better presentation */
+    margin-left: auto;
+    /* Center the container horizontally */
+    margin-right: auto;
+}
+
+
+/* Bold subheadings */
+
+.service-section strong {
+    color: #c47c7c;
+    /* Color for bold text */
+}
+
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+    .service-section h1 {
+        font-size: 2rem;
+        /* Smaller title on mobile */
+    }
+    .service-section p {
+        font-size: 16px;
+        /* Adjust paragraph font size on mobile */
+    }
+}

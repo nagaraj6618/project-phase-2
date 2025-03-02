@@ -1,0 +1,148 @@
+/* General body styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    /* Light gray background */
+    color: #333;
+    /* Dark text color */
+    font-family: Arial, sans-serif;
+}
+
+
+/* Styling for the navigation bar */
+
+.navbar {
+    background-color: #333;
+    /* Dark background for navbar */
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    /* Hover effect */
+    color: #fff;
+}
+
+.menu-icon {
+    color: white;
+    font-size: 24px;
+    padding: 15px 20px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.menu-icon:hover {
+    color: #ffffff;
+    /* Hover effect for menu icon */
+}
+
+
+/* Sources section styling */
+
+.sources-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    /* Space below the navbar */
+    padding: 20px;
+    background-color: #dbdbdb;
+    /* White background for content */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+    text-align: center;
+    /* Center the text */
+    max-width: 800px;
+    /* Max width for better presentation */
+    margin-left: auto;
+    /* Center the container horizontally */
+    margin-right: auto;
+    /* Center the container horizontally */
+}
+
+.sources-section h1 {
+    color: #333;
+    /* Dark text color */
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    /* Larger title */
+}
+
+.sources-section p {
+    margin: 10px 0;
+    /* Space between paragraphs */
+    line-height: 1.6;
+    /* Better readability */
+}
+
+.sources-section ul {
+    list-style-type: disc;
+    /* Use disc bullets */
+    padding-left: 20px;
+    /* Indent the list */
+    text-align: left;
+    /* Left-align the list text */
+    margin: 0 auto;
+    /* Center align the list within its container */
+    max-width: 600px;
+    /* Max width for better presentation */
+}
+
+.sources-section li {
+    margin-bottom: 10px;
+    /* Space between list items */
+}
+
+.sources-section a {
+    color: #007bff;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.sources-section a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+    .sources-section h1 {
+        font-size: 2rem;
+        /* Smaller title on mobile */
+    }
+    .sources-section p,
+    .sources-section li {
+        font-size: 16px;
+        /* Adjust paragraph font size on mobile */
+    }
+}
